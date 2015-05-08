@@ -28,7 +28,7 @@ while True:
         x = input('x ->')
         y = input('y ->')
         labirent.open_wall(x,y)
-        print labirent.draw_labyrinth() 
+        print labirent 
 
     elif selection == 3:
         x1 = input('x1 ->')
