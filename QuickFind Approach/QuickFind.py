@@ -1,6 +1,6 @@
 class QuickFind(object):
-    def __init__(self):
-        self.connection_map = range(100)
+    def __init__(self,size):
+        self.connection_map = range(size * size)
 
     def is_connected(self,i,j):
         return self.connection_map[i] == self.connection_map[j]
